@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.uottawa.teammanager.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="3"
+            android:rowCount="2">
+
+            <ImageView
+                android:id="@+id/teamid05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SetTeamIcon"
+                app:srcCompat="@drawable/ic_logo_05" />
+
+            <ImageView
+                android:id="@+id/teamid04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SetTeamIcon"
+                app:srcCompat="@drawable/ic_logo_04" />
+
+            <ImageView
+                android:id="@+id/teamid03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SetTeamIcon"
+                app:srcCompat="@drawable/ic_logo_03" />
+
+            <ImageView
+                android:id="@+id/teamid02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SetTeamIcon"
+                app:srcCompat="@drawable/ic_logo_02" />
+
+            <ImageView
+                android:id="@+id/teamid01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SetTeamIcon"
+                app:srcCompat="@drawable/ic_logo_01" />
+
+            <ImageView
+                android:id="@+id/teamid00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SetTeamIcon"
+                app:srcCompat="@drawable/ic_logo_00" />
+        </GridLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
